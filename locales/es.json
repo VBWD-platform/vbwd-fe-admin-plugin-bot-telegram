@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Bots de Telegram",
+      "new": "Nuevo bot",
+      "empty": "Aún no hay bots configurados.",
+      "default": "Predeterminado",
+      "enabled": "Activado",
+      "disabled": "Desactivado",
+      "setWebhook": "Configurar webhook",
+      "sendTest": "Enviar prueba",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Eliminar el bot \"{name}\"?",
+      "webhookOk": "Webhook configurado para {name}.",
+      "webhookError": "No se pudo configurar el webhook.",
+      "testChatPrompt": "ID de chat de Telegram para enviar el mensaje de prueba:",
+      "testOk": "Mensaje de prueba enviado.",
+      "testRateLimited": "Demasiadas solicitudes: espera antes de enviar otra prueba.",
+      "testError": "No se pudo enviar el mensaje de prueba.",
+      "col": {
+        "name": "Nombre",
+        "username": "Usuario",
+        "token": "Token",
+        "default": "Predeterminado",
+        "status": "Estado",
+        "actions": "Acciones"
+      }
+    },
+    "form": {
+      "newTitle": "Nuevo bot de Telegram",
+      "editTitle": "Editar bot de Telegram",
+      "back": "Volver",
+      "name": "Nombre",
+      "username": "Usuario",
+      "usernameHint": "@handle de BotFather, sin la @ inicial.",
+      "token": "Token del bot",
+      "tokenHintNew": "El token de BotFather. Se guarda en el servidor y no se vuelve a mostrar.",
+      "tokenHintEdit": "Déjalo en blanco para mantener el token actual; introduce un valor para rotarlo.",
+      "webhookSecret": "Secreto del webhook",
+      "webhookSecretHint": "Opcional. Déjalo en blanco para mantener el secreto actual.",
+      "default": "Bot predeterminado",
+      "enabled": "Activado",
+      "save": "Guardar"
+    },
+    "links": {
+      "title": "Cuentas vinculadas",
+      "hint": "Cuentas externas vinculadas a usuarios de vbwd en todos los proveedores de bots.",
+      "empty": "Aún no hay cuentas vinculadas.",
+      "col": {
+        "provider": "Proveedor",
+        "externalId": "ID externo",
+        "user": "Usuario vbwd",
+        "linkedAt": "Vinculado el"
+      }
+    }
+  }
+}

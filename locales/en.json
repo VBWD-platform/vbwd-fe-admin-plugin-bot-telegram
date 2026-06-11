@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Telegram Bots",
+      "new": "New Bot",
+      "empty": "No bots configured yet.",
+      "default": "Default",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "setWebhook": "Set Webhook",
+      "sendTest": "Send Test",
+      "delete": "Delete",
+      "deleteConfirm": "Delete bot \"{name}\"?",
+      "webhookOk": "Webhook set for {name}.",
+      "webhookError": "Failed to set webhook.",
+      "testChatPrompt": "Telegram chat id to send the test message to:",
+      "testOk": "Test message sent.",
+      "testRateLimited": "Rate limited — please wait before sending another test.",
+      "testError": "Failed to send test message.",
+      "col": {
+        "name": "Name",
+        "username": "Username",
+        "token": "Token",
+        "default": "Default",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "form": {
+      "newTitle": "New Telegram Bot",
+      "editTitle": "Edit Telegram Bot",
+      "back": "Back",
+      "name": "Name",
+      "username": "Username",
+      "usernameHint": "BotFather @handle, without the leading @.",
+      "token": "Bot Token",
+      "tokenHintNew": "The BotFather token. Stored server-side and never shown again.",
+      "tokenHintEdit": "Leave blank to keep the current token; enter a value to rotate it.",
+      "webhookSecret": "Webhook Secret",
+      "webhookSecretHint": "Optional. Leave blank to keep the current secret.",
+      "default": "Default bot",
+      "enabled": "Enabled",
+      "save": "Save"
+    },
+    "links": {
+      "title": "Linked Accounts",
+      "hint": "External accounts linked to vbwd users across all bot providers.",
+      "empty": "No linked accounts yet.",
+      "col": {
+        "provider": "Provider",
+        "externalId": "External ID",
+        "user": "vbwd User",
+        "linkedAt": "Linked At"
+      }
+    }
+  }
+}

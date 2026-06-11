@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Telegram-Bots",
+      "new": "Neuer Bot",
+      "empty": "Noch keine Bots konfiguriert.",
+      "default": "Standard",
+      "enabled": "Aktiv",
+      "disabled": "Inaktiv",
+      "setWebhook": "Webhook setzen",
+      "sendTest": "Test senden",
+      "delete": "Löschen",
+      "deleteConfirm": "Bot \"{name}\" löschen?",
+      "webhookOk": "Webhook für {name} gesetzt.",
+      "webhookError": "Webhook konnte nicht gesetzt werden.",
+      "testChatPrompt": "Telegram-Chat-ID für die Testnachricht:",
+      "testOk": "Testnachricht gesendet.",
+      "testRateLimited": "Zu viele Anfragen – bitte vor dem nächsten Test warten.",
+      "testError": "Testnachricht konnte nicht gesendet werden.",
+      "col": {
+        "name": "Name",
+        "username": "Benutzername",
+        "token": "Token",
+        "default": "Standard",
+        "status": "Status",
+        "actions": "Aktionen"
+      }
+    },
+    "form": {
+      "newTitle": "Neuer Telegram-Bot",
+      "editTitle": "Telegram-Bot bearbeiten",
+      "back": "Zurück",
+      "name": "Name",
+      "username": "Benutzername",
+      "usernameHint": "BotFather-@handle, ohne führendes @.",
+      "token": "Bot-Token",
+      "tokenHintNew": "Der BotFather-Token. Wird serverseitig gespeichert und nie erneut angezeigt.",
+      "tokenHintEdit": "Leer lassen, um den aktuellen Token zu behalten; Wert eingeben, um ihn zu rotieren.",
+      "webhookSecret": "Webhook-Secret",
+      "webhookSecretHint": "Optional. Leer lassen, um das aktuelle Secret zu behalten.",
+      "default": "Standard-Bot",
+      "enabled": "Aktiv",
+      "save": "Speichern"
+    },
+    "links": {
+      "title": "Verknüpfte Konten",
+      "hint": "Externe Konten, die mit vbwd-Nutzern über alle Bot-Anbieter verknüpft sind.",
+      "empty": "Noch keine verknüpften Konten.",
+      "col": {
+        "provider": "Anbieter",
+        "externalId": "Externe ID",
+        "user": "vbwd-Nutzer",
+        "linkedAt": "Verknüpft am"
+      }
+    }
+  }
+}

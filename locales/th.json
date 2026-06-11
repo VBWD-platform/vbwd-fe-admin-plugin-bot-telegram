@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "บอท Telegram",
+      "new": "บอทใหม่",
+      "empty": "ยังไม่มีการตั้งค่าบอท",
+      "default": "ค่าเริ่มต้น",
+      "enabled": "เปิดใช้งาน",
+      "disabled": "ปิดใช้งาน",
+      "setWebhook": "ตั้งค่า Webhook",
+      "sendTest": "ส่งทดสอบ",
+      "delete": "ลบ",
+      "deleteConfirm": "ลบบอท \"{name}\" หรือไม่?",
+      "webhookOk": "ตั้งค่า Webhook สำหรับ {name} แล้ว",
+      "webhookError": "ตั้งค่า Webhook ไม่สำเร็จ",
+      "testChatPrompt": "รหัสแชท Telegram สำหรับส่งข้อความทดสอบ:",
+      "testOk": "ส่งข้อความทดสอบแล้ว",
+      "testRateLimited": "คำขอมากเกินไป — โปรดรอก่อนส่งทดสอบครั้งถัดไป",
+      "testError": "ส่งข้อความทดสอบไม่สำเร็จ",
+      "col": {
+        "name": "ชื่อ",
+        "username": "ชื่อผู้ใช้",
+        "token": "โทเค็น",
+        "default": "ค่าเริ่มต้น",
+        "status": "สถานะ",
+        "actions": "การดำเนินการ"
+      }
+    },
+    "form": {
+      "newTitle": "บอท Telegram ใหม่",
+      "editTitle": "แก้ไขบอท Telegram",
+      "back": "กลับ",
+      "name": "ชื่อ",
+      "username": "ชื่อผู้ใช้",
+      "usernameHint": "@handle ของ BotFather โดยไม่มี @ นำหน้า",
+      "token": "โทเค็นบอท",
+      "tokenHintNew": "โทเค็นจาก BotFather จัดเก็บฝั่งเซิร์ฟเวอร์และจะไม่แสดงอีก",
+      "tokenHintEdit": "เว้นว่างเพื่อคงโทเค็นปัจจุบัน หรือใส่ค่าใหม่เพื่อหมุนเปลี่ยน",
+      "webhookSecret": "ความลับ Webhook",
+      "webhookSecretHint": "ไม่บังคับ เว้นว่างเพื่อคงค่าความลับปัจจุบัน",
+      "default": "บอทค่าเริ่มต้น",
+      "enabled": "เปิดใช้งาน",
+      "save": "บันทึก"
+    },
+    "links": {
+      "title": "บัญชีที่เชื่อมโยง",
+      "hint": "บัญชีภายนอกที่เชื่อมโยงกับผู้ใช้ vbwd ในทุกผู้ให้บริการบอท",
+      "empty": "ยังไม่มีบัญชีที่เชื่อมโยง",
+      "col": {
+        "provider": "ผู้ให้บริการ",
+        "externalId": "รหัสภายนอก",
+        "user": "ผู้ใช้ vbwd",
+        "linkedAt": "เชื่อมโยงเมื่อ"
+      }
+    }
+  }
+}

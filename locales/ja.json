@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Telegram ボット",
+      "new": "新しいボット",
+      "empty": "まだボットが設定されていません。",
+      "default": "デフォルト",
+      "enabled": "有効",
+      "disabled": "無効",
+      "setWebhook": "Webhook を設定",
+      "sendTest": "テスト送信",
+      "delete": "削除",
+      "deleteConfirm": "ボット「{name}」を削除しますか？",
+      "webhookOk": "{name} の Webhook を設定しました。",
+      "webhookError": "Webhook の設定に失敗しました。",
+      "testChatPrompt": "テストメッセージを送信する Telegram チャット ID:",
+      "testOk": "テストメッセージを送信しました。",
+      "testRateLimited": "リクエストが多すぎます。次のテストまでお待ちください。",
+      "testError": "テストメッセージの送信に失敗しました。",
+      "col": {
+        "name": "名前",
+        "username": "ユーザー名",
+        "token": "トークン",
+        "default": "デフォルト",
+        "status": "ステータス",
+        "actions": "操作"
+      }
+    },
+    "form": {
+      "newTitle": "新しい Telegram ボット",
+      "editTitle": "Telegram ボットを編集",
+      "back": "戻る",
+      "name": "名前",
+      "username": "ユーザー名",
+      "usernameHint": "BotFather の @handle（先頭の @ は不要）。",
+      "token": "ボットトークン",
+      "tokenHintNew": "BotFather のトークン。サーバーに保存され、二度と表示されません。",
+      "tokenHintEdit": "現在のトークンを保持するには空欄のまま。値を入力するとローテーションします。",
+      "webhookSecret": "Webhook シークレット",
+      "webhookSecretHint": "任意。現在のシークレットを保持するには空欄のまま。",
+      "default": "デフォルトのボット",
+      "enabled": "有効",
+      "save": "保存"
+    },
+    "links": {
+      "title": "リンクされたアカウント",
+      "hint": "すべてのボットプロバイダーにわたって vbwd ユーザーにリンクされた外部アカウント。",
+      "empty": "リンクされたアカウントはまだありません。",
+      "col": {
+        "provider": "プロバイダー",
+        "externalId": "外部 ID",
+        "user": "vbwd ユーザー",
+        "linkedAt": "リンク日時"
+      }
+    }
+  }
+}

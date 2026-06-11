@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Bots Telegram",
+      "new": "Nouveau bot",
+      "empty": "Aucun bot configuré pour le moment.",
+      "default": "Par défaut",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "setWebhook": "Définir le webhook",
+      "sendTest": "Envoyer un test",
+      "delete": "Supprimer",
+      "deleteConfirm": "Supprimer le bot \"{name}\" ?",
+      "webhookOk": "Webhook défini pour {name}.",
+      "webhookError": "Échec de la définition du webhook.",
+      "testChatPrompt": "ID de chat Telegram pour envoyer le message de test :",
+      "testOk": "Message de test envoyé.",
+      "testRateLimited": "Trop de requêtes — veuillez patienter avant un nouvel essai.",
+      "testError": "Échec de l'envoi du message de test.",
+      "col": {
+        "name": "Nom",
+        "username": "Nom d'utilisateur",
+        "token": "Jeton",
+        "default": "Par défaut",
+        "status": "Statut",
+        "actions": "Actions"
+      }
+    },
+    "form": {
+      "newTitle": "Nouveau bot Telegram",
+      "editTitle": "Modifier le bot Telegram",
+      "back": "Retour",
+      "name": "Nom",
+      "username": "Nom d'utilisateur",
+      "usernameHint": "@handle BotFather, sans le @ initial.",
+      "token": "Jeton du bot",
+      "tokenHintNew": "Le jeton BotFather. Stocké côté serveur et jamais réaffiché.",
+      "tokenHintEdit": "Laisser vide pour conserver le jeton actuel ; saisir une valeur pour le renouveler.",
+      "webhookSecret": "Secret du webhook",
+      "webhookSecretHint": "Facultatif. Laisser vide pour conserver le secret actuel.",
+      "default": "Bot par défaut",
+      "enabled": "Activé",
+      "save": "Enregistrer"
+    },
+    "links": {
+      "title": "Comptes liés",
+      "hint": "Comptes externes liés aux utilisateurs vbwd pour tous les fournisseurs de bots.",
+      "empty": "Aucun compte lié pour le moment.",
+      "col": {
+        "provider": "Fournisseur",
+        "externalId": "ID externe",
+        "user": "Utilisateur vbwd",
+        "linkedAt": "Lié le"
+      }
+    }
+  }
+}

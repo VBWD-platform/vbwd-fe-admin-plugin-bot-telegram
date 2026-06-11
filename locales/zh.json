@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Telegram 机器人",
+      "new": "新建机器人",
+      "empty": "尚未配置任何机器人。",
+      "default": "默认",
+      "enabled": "已启用",
+      "disabled": "已停用",
+      "setWebhook": "设置 Webhook",
+      "sendTest": "发送测试",
+      "delete": "删除",
+      "deleteConfirm": "删除机器人“{name}”？",
+      "webhookOk": "已为 {name} 设置 Webhook。",
+      "webhookError": "设置 Webhook 失败。",
+      "testChatPrompt": "用于发送测试消息的 Telegram 聊天 ID：",
+      "testOk": "测试消息已发送。",
+      "testRateLimited": "请求过多——请稍候再发送下一条测试。",
+      "testError": "发送测试消息失败。",
+      "col": {
+        "name": "名称",
+        "username": "用户名",
+        "token": "令牌",
+        "default": "默认",
+        "status": "状态",
+        "actions": "操作"
+      }
+    },
+    "form": {
+      "newTitle": "新建 Telegram 机器人",
+      "editTitle": "编辑 Telegram 机器人",
+      "back": "返回",
+      "name": "名称",
+      "username": "用户名",
+      "usernameHint": "BotFather 的 @handle，不含开头的 @。",
+      "token": "机器人令牌",
+      "tokenHintNew": "BotFather 令牌。保存在服务器端，不会再次显示。",
+      "tokenHintEdit": "留空以保留当前令牌；输入新值以轮换。",
+      "webhookSecret": "Webhook 密钥",
+      "webhookSecretHint": "可选。留空以保留当前密钥。",
+      "default": "默认机器人",
+      "enabled": "已启用",
+      "save": "保存"
+    },
+    "links": {
+      "title": "已关联账户",
+      "hint": "跨所有机器人提供方关联到 vbwd 用户的外部账户。",
+      "empty": "尚无已关联账户。",
+      "col": {
+        "provider": "提供方",
+        "externalId": "外部 ID",
+        "user": "vbwd 用户",
+        "linkedAt": "关联时间"
+      }
+    }
+  }
+}

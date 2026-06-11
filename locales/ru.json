@@ -1,0 +1,57 @@
+{
+  "botTelegramAdmin": {
+    "bots": {
+      "title": "Telegram-боты",
+      "new": "Новый бот",
+      "empty": "Боты ещё не настроены.",
+      "default": "По умолчанию",
+      "enabled": "Включён",
+      "disabled": "Отключён",
+      "setWebhook": "Задать webhook",
+      "sendTest": "Отправить тест",
+      "delete": "Удалить",
+      "deleteConfirm": "Удалить бота «{name}»?",
+      "webhookOk": "Webhook задан для {name}.",
+      "webhookError": "Не удалось задать webhook.",
+      "testChatPrompt": "ID чата Telegram для отправки тестового сообщения:",
+      "testOk": "Тестовое сообщение отправлено.",
+      "testRateLimited": "Слишком много запросов — подождите перед следующим тестом.",
+      "testError": "Не удалось отправить тестовое сообщение.",
+      "col": {
+        "name": "Название",
+        "username": "Имя пользователя",
+        "token": "Токен",
+        "default": "По умолчанию",
+        "status": "Статус",
+        "actions": "Действия"
+      }
+    },
+    "form": {
+      "newTitle": "Новый Telegram-бот",
+      "editTitle": "Редактировать Telegram-бота",
+      "back": "Назад",
+      "name": "Название",
+      "username": "Имя пользователя",
+      "usernameHint": "@handle из BotFather, без ведущего @.",
+      "token": "Токен бота",
+      "tokenHintNew": "Токен BotFather. Хранится на сервере и больше не отображается.",
+      "tokenHintEdit": "Оставьте пустым, чтобы сохранить текущий токен; введите значение для ротации.",
+      "webhookSecret": "Секрет webhook",
+      "webhookSecretHint": "Необязательно. Оставьте пустым, чтобы сохранить текущий секрет.",
+      "default": "Бот по умолчанию",
+      "enabled": "Включён",
+      "save": "Сохранить"
+    },
+    "links": {
+      "title": "Связанные аккаунты",
+      "hint": "Внешние аккаунты, связанные с пользователями vbwd по всем провайдерам ботов.",
+      "empty": "Связанных аккаунтов пока нет.",
+      "col": {
+        "provider": "Провайдер",
+        "externalId": "Внешний ID",
+        "user": "Пользователь vbwd",
+        "linkedAt": "Связан"
+      }
+    }
+  }
+}
