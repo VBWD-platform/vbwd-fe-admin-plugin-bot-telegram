@@ -15,7 +15,7 @@ describe('bot-telegram-admin plugin', () => {
 
   it('declares correct metadata', () => {
     expect(botTelegramAdminPlugin.name).toBe('bot-telegram-admin');
-    expect(botTelegramAdminPlugin.version).toBe('1.0.0');
+    expect(botTelegramAdminPlugin.version).toBe('26.6.1');
   });
 
   it('registers the bot CRUD + linked-accounts routes on install', async () => {
