@@ -60,7 +60,7 @@ function addTranslations(sdk: IPlatformSDK): void {
 
 export const botTelegramAdminPlugin: IPlugin = {
   name: 'bot-telegram-admin',
-  version: '1.0.0',
+  version: '26.6',
   description: 'Telegram bot management, webhook/test actions, and linked accounts.',
 
   install(sdk: IPlatformSDK) {
