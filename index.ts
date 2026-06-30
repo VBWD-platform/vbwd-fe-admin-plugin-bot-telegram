@@ -31,11 +31,13 @@ const NAV_SECTIONS = [
       {
         label: 'Bots',
         to: '/admin/bot-telegram/bots',
+        icon: 'bot',
         requiredPermission: 'bot_telegram.manage',
       },
       {
         label: 'Linked Accounts',
         to: '/admin/bot-telegram/links',
+        icon: 'link',
         requiredPermission: 'bot_base.manage',
       },
     ],
